@@ -16,7 +16,7 @@ console.log("2"+2);
 console.log(2+6+"2"+4+5);
 console.log(2+2+"2");
 
-let str = "hello"
+let str = "hello  I"
 let str1 = " ashutosh"
 
 console.log(str+str1);
