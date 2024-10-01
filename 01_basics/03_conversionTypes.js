@@ -15,3 +15,9 @@ console.log("2"+"2");
 console.log("2"+2);
 console.log(2+6+"2"+4+5);
 console.log(2+2+"2");
+
+str = "hello"
+str1 = " ashutosh"
+
+console.log(str+str1);
+
