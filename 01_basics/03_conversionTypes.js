@@ -9,3 +9,9 @@ let numBool1 = Boolean(age)
 // console.log(age)
 // console.log(stringBool)
 //console.log(numBool1)
+
+console.log(2+2);
+console.log("2"+"2");
+console.log("2"+2);
+console.log(2+6+"2"+4+5);
+console.log(2+2+"2");
