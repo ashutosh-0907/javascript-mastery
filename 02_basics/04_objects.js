@@ -16,7 +16,7 @@ const xUser = {
     }
 }
 
-console.log(xUser.hasOwnProperty('userName'));
+//fconsole.log(xUser.hasOwnProperty('userName'));
 
 
 //console.log(xUser.userName.fullName.lastName);
@@ -30,3 +30,20 @@ const obj2 = {3: "c", 4: "d"}
 const obj3 = {...obj1, ...obj2}
 //console.log(obj3);
 
+const course = {
+    courseName : "Js ",
+    price : "999",
+    courseInstructor : "hitesh",
+}
+
+const {courseInstructor : inst} = course
+console.log(inst);
+
+//+++++++JavaScript object Notification(JSON)+++++++++
+
+
+// {
+//     "name" : "Ashutosh Rai",
+//     "age" : "21",
+//     "email": "user@mail.com"
+// }
