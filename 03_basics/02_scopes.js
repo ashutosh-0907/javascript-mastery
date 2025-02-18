@@ -21,8 +21,21 @@ if(true){
 }
 //console.log(a);
 //console.log(b);
-console.log(c);
+console.log(c); // var will print 3 here
 //console.log({a,b,c});
+
+console.log(addOne(5));
+function addOne(num){
+   return num + num
+}
+
+console.log(sum(33));
+sum = function add(num){
+   return num + num
+}
+
+console.log(sum(33));
+
 
 
 
