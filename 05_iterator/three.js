@@ -8,6 +8,15 @@ for (const i of arr) {
 const greet = "Hi geeks"
 
 for (const i of greet) {
-    console.log(`Each char is ${i}`);
-    
+    //console.log(`Each char is ${i}`);   
+}
+
+const map = new Map()
+map.set("IN", "India")
+map.set("UK","United Kingdom")
+map.set("AUS","Australia")
+map.set("IN","Indian")
+
+for (const [key,value] of map) {
+   // console.log(key, "=>", value );
 }
